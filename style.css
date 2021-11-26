@@ -36,6 +36,7 @@ body{
     background: #093F5D;
     box-shadow: inset 20px 20px 18px #041c2a,
                 inset -20px -20px 18px #0e6290;
+    transition: all 0.5s ease-in-out;
 }
 .infoo{
     max-width: 80%;
@@ -78,6 +79,12 @@ li{
 
 .bop{
     max-width: 60%;
+}
+
+.topp:hover{
+    background: linear-gradient(145deg, #094364, #073954);
+    box-shadow:  8px 8px 14px #031925,
+                -8px -8px 14px #0d6595;
 }
 
 /* 5A99D2 2bc2ae  2bb0c2  
